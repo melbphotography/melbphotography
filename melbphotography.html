@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Melb Photography</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: hsl(32, 21%, 68%);
+      color: hsl(33, 10%, 91%);
+    }
+
+    header {
+      padding: 2rem 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .nav-bar {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+
+    nav a {
+      margin: 0 0.8rem;
+      text-decoration: none;
+      color: hsl(33, 10%, 91%);
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    .site-title {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: auto;
+      margin-top: 1rem;
+    }
+
+    .intro-text {
+      max-width: 600px;
+      margin: 1rem auto;
+      color: black;
+      font-size: 1rem;
+    }
+
+    .instagram-icon {
+      margin-top: 0.5rem;
+    }
+
+    .fa {
+      font-size: 28px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .responsive-img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin: 0.8rem 0;
+      border: 4px solid white;
+      border-radius: 8px;
+    }
+
+    .contact {
+      text-align: center;
+      margin: 2rem;
+    }
+
+    .contact a {
+      color: hsl(33, 10%, 91%);
+      text-decoration: none;
+    }
+
+    @media (min-width: 600px) {
+      nav a {
+        font-size: 1rem;
+      }
+
+      .site-title {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="site-title">Melissa Runge</div>
+
+    <div class="nav-bar">
+      <nav>
+        <a href="melbphotography.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="info.html">Info</a>
+      </nav>
+    </div>
+
+    <div class="logo-container">
+      <img src="melblogo.jpeg" alt="Melb Photography Logo" />
+    </div>
+
+    <div class="instagram-icon">
+      <a href="https://www.instagram.com/melb__photography_" class="fa fa-instagram" target="_blank"></a>
+    </div>
+
+    <p class="intro-text">
+      Capturing portraits with heart whether it’s just you, the two of you, or the whole family. Let’s make something real and beautiful, together.
+    </p>
+  </header>
+
+  <div class="gallery">
+    <img src="pic1.JPG" alt="Gallery 1" class="responsive-img" />
+    <img src="pic2.JPG" alt="Gallery 2" class="responsive-img" />
+    <img src="pic3.JPG" alt="Gallery 3" class="responsive-img" />
+    <img src="pic4.JPG" alt="Gallery 4" class="responsive-img" />
+  </div>
+
+  <div class="contact">
+    <p>Contact me: <a href="mailto:melissa.melbphotography@gmail.com">melissa.melbphotography@gmail.com</a></p>
+  </div>
+
+</body>
+</html>
